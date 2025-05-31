@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.add {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add:hover {
+  background-color: #4CAF50;
+  color: white;
+  transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 54, 54);
+    padding: 15px;
+    width: 30rem;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.list-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.complete {
+    color: rgb(133, 255, 133);
+}
+
+.complete:hover {
+    color: rgb(39, 219, 39);
+}
+
+.completed {
+    color: white;
+    margin: 0;
+    display: inline;
+}
+
+.back {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.back:hover {
+  background-color: #4CAF50;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.input-habit {
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-habit:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
