@@ -3,6 +3,10 @@
 
 #### Description:
 
+This was my final project for the CS50x Course by Harvard.
+
+![certificate](certificate.jpg)
+
 Habit Tracker is a **web-based application** developed as the final project for Harvard's [CS50x](https://cs50.harvard.edu/x/) course. The app helps users build positive daily habits by providing an intuitive interface where they can create, track, and maintain progress on their goals.
 
 The project was designed and implemented using **Python (Flask framework)** for the backend, **SQLite** for data persistence, and standard web technologies such as **HTML** and **CSS** for the frontend. It is intentionally lightweight, focusing on core functionality and usability while maintaining a clean and responsive user experience.
